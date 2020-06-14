@@ -33,6 +33,7 @@
         android:layout_height="wrap_content"
         android:text="아이디" />
     <EditText
+        android:id="@+id/emailEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="이메일 양식으로 입력하세요."
@@ -82,6 +83,7 @@
 
 
         <Button
+            android:id="@+id/signupBtn"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
